@@ -16,7 +16,7 @@ A simple and responsive React application that allows users to **search for movi
 ---
 
 ## 🌐 Live Demo
-➡️ Deployed at: https://react-movie-trailer-app.vercel.app/
+➡️ Deployed at: https://react-movie-trailer-app-one.vercel.app/
 
 This project is ready for [Vercel](https://vercel.com). Just import your repo, and you're live in seconds.
 
