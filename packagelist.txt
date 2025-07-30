@@ -1,0 +1,2 @@
+npm install movie-trailer #https://www.npmjs.com/package/movie-trailer
+npm install react-player #https://www.npmjs.com/package/react-player

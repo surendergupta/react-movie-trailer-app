@@ -1,0 +1,55 @@
+.movie-trailer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    width: 80%;
+    max-width: 720px;
+    margin: 0 auto;
+    margin-top: 20px;
+    aspect-ratio: 16 / 9;
+}
+
+.ReactPlayer {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/* Make media control bar responsive */
+media-control-bar {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+media-control-bar::-webkit-scrollbar {
+  display: none; /* hide scrollbar on webkit browsers */
+}
+
+/* Resize buttons on smaller screens */
+media-control-bar > * {
+  flex: 1 1 auto;
+  min-width: 30px;
+  max-width: 80px;
+}
+
+@media (max-width: 768px) {
+    .movie-trailer-container {
+        width: 100%;
+    }
+  media-control-bar {
+    flex-direction: row;
+    align-items: stretch;
+  }
+
+  media-control-bar > * {
+    max-width: 100%;
+  }
+}
+
+
+media-control-bar button {
+  font-size: 1.2rem;
+}
